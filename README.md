@@ -7,18 +7,21 @@ By leveraging the MERN (MongoDB, Express.js, React, and Node.js) stack, the port
 ________________________________________
 **System Design and Implementation
 **
+
 **User Management**
 
 •	Secure Authentication: Implemented student registration using university email IDs with a secure login system.
 •	Profile Management: Users can update personal details, set event preferences, and track their participation history.
 •	Role-Based Access Control: Defined user roles, including students, event organizers, and administrators, each with specific permissions.
 •	Committee Member Management: Developed an interface for committee members with privileges to create and manage events effectively.
+
 **Event Management**
 
 •	Event Creation: Committee members can create, edit, and delete events with relevant details such as title, description, date, time, venue, category, participant limit, rules, and registration fees.
 •	Event Categorization: Supports a diverse range of event types including sports (Chess, Basketball, Swimming, Athletics, Cricket, Badminton, Table Tennis), hackathons, and academic contests.
 •	Scheduling System: Integrated conflict detection to prevent event overlap and double-booking of venues.
 •	Venue Management: Enabled an efficient venue allocation system to streamline event logistics and avoid scheduling conflicts.
+
 **Participation System
 **
 •	Student Registration: Students can register for events based on their interests and availability.
@@ -26,6 +29,7 @@ ________________________________________
 •	Participation Fee Collection: Integrated a secure payment gateway for seamless fee transactions and tracking.
 •	Attendance Tracking: Developed a system to monitor participant presence and engagement during events.
 •	Results & Rankings: Implemented automated ranking calculations to declare winners and generate final standings.
+
 **Notification System**
 
 •	Event Announcements: Sends notifications to all users regarding newly created events.
@@ -33,12 +37,14 @@ ________________________________________
 •	Reminder System: Sends timely reminders for upcoming events to registered participants.
 •	Real-Time Updates: Notifies users of event modifications, cancellations, and urgent announcements.
 •	Multi-Channel Support: Supports both email notifications and in-app alerts to maximize outreach.
+
 **Rewards and Recognition
 **
 •	Winner Declaration System: Automates the announcement of event winners based on predefined criteria.
 •	Certificate Generation: Provides downloadable and printable certificates for participants and winners.
 •	Leaderboard Display: Highlights top-performing students based on participation and achievements.
 •	Points System: Rewards users with points for attending events, winning competitions, and contributing to the university community.
+
 **Sponsorship Features**
 
 •	Advertisement Management: Allocates digital ad spaces to sponsors for visibility on the platform.
@@ -47,6 +53,7 @@ ________________________________________
 •	Sponsorship Tiers: Implements different sponsorship levels, offering varied promotional opportunities based on contribution levels.
 ________________________________________
 **Technical Implementation**
+
 
 **Frontend (React)**
 
@@ -57,6 +64,7 @@ ________________________________________
 •	Event Calendar: Implemented an interactive calendar displaying upcoming events with filtering options.
 •	Real-Time Notifications: Developed components for live notifications on event updates and reminders.
 •	Mobile Optimization: Ensured optimal viewing experience for users accessing the portal on the go.
+
 **Backend (Node.js & Express)**
 
 •	API Development: Designed RESTful API endpoints to handle user authentication, event management, and registrations.
@@ -66,6 +74,7 @@ ________________________________________
 •	Payment Gateway Integration: Enabled online payment support for event registration fees through third-party services.
 •	Analytics & Reporting: Built services to generate event insights and participation trends.
 •	File Uploads: Allowed users to upload event posters and generated certificates for download.
+
 **Database (MongoDB)**
 
 •	Schema Design: Structured collections for users, events, registrations, payments, and sponsorships.
@@ -73,6 +82,7 @@ ________________________________________
 •	Data Validation: Enforced validation rules to ensure data consistency and security.
 •	Advanced Queries: Developed aggregation pipelines for reporting and analytics.
 •	Leaderboard Aggregation: Designed efficient queries to calculate and display top-ranked participants.
+
 **DevOps & Deployment
 **
 •	Environment Setup: Configured development, testing, and production environments with best practices.
