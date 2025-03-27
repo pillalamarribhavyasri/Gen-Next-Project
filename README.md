@@ -1,5 +1,6 @@
 Case Study:** University Events Portal - MERN Stack Implementation
 **
+
 **Project Overview**
 
 The University Events Portal is a comprehensive web-based platform designed to streamline the organization, management, and participation in campus events. The system enables students to register, customize their preferences, and receive notifications for relevant events. Additionally, it empowers student committees to organize events, manage registrations, collect participation fees, and distribute rewards seamlessly.
@@ -95,22 +96,4 @@ ________________________________________
 
 The University Events Portal successfully digitizes campus event management by providing an efficient, scalable, and user-friendly platform. The system enhances student engagement, streamlines event planning, and optimizes administrative workflows. By leveraging modern web technologies, real-time notifications, and secure authentication, the platform ensures seamless event execution. Future enhancements may include AI-driven event recommendations, blockchain-based certificate verification, and social media integrations to further extend the reach and usability of the portal.
 
-	**Project Structure (MERN Stack)**
- 
-university-events-portal/
-│-- backend/ (Node.js + Express)
-│   │-- controllers/
-│   │-- models/
-│   │-- routes/
-│   │-- middlewares/
-│   │-- config/
-│   │-- server.js
-│-- frontend/ (React)
-│   │-- src/
-│   │   │-- components/
-│   │   │-- pages/
-│   │   │-- redux/
-│   │   │-- App.js
-│   │   │-- index.js
-│-- package.json
-│-- README.md
+	
